@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-
+/* carousel section css start */
 .custom-carousel-caption {
   bottom: unset;
 }
@@ -12,17 +12,7 @@
 .carousel-img-overlay {
   filter: brightness(60%);
 }
-.custom-prev{
- width: 50px;
-  height: 50px;
-
-}
-.custom-next{
-  width: 50px;
-  height: 50px;
-  transform: translate(50%, -50%);
-}
-
+/* carousel media quary section css start */
 @media only screen and (max-width: 576px) {
   .custom-carousel-caption {
     width: 80%;
@@ -54,3 +44,4 @@
   }
   
 }
+/* carousel section css start */
